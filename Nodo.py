@@ -4,4 +4,3 @@ class Nodo:
         self.x = x
         self.y = y
         self.distancia = distancia
-        self.angulo = 0
