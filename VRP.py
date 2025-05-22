@@ -71,7 +71,7 @@ def graficar_rutas(vehiculos):
         for i in v.ruta:
             x.append(nodos[i].x)
             y.append(nodos[i].y)
-        plt.plot(x, y, marker='o', label="Vehículo " + str(v.vehiculoId))
+        plt.plot(x, y, marker='o')
 
     plt.scatter(nodos[0].x, nodos[0].y, c='red', s=100, label='Depósito')
     plt.title("Rutas de vehículos")
